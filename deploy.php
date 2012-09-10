@@ -17,10 +17,10 @@ if(!isset($_POST['payload']) || empty($_POST['payload'])) {
  */
 // Your github username
 if (!defined('GH_USERNAME'))
-    define('GH_USERNAME', 'slaFFik');
+    define('GH_USERNAME', 'jvdamgaard');
 // Slug of the epo you want to autodeploy
 if (!defined('GH_REPO'))
-    define('GH_REPO', 'github-auto-deploy');
+    define('GH_REPO', 'm.adaptivedesignstudio.com');
 //Type of the repository. Possible values: public|private
 // Currenty supporting only public
 if (!defined('GH_REPO_TYPE'))
@@ -30,7 +30,7 @@ if (!defined('GH_BRANCH'))
     define('GH_BRANCH', 'master');
 // Where you want to deploy the github project files. No trailing slash
 if (!defined('GH_UPLOAD_PATH'))
-    define('GH_UPLOAD_PATH', dirname(__FILE__) . '/project');
+    define('GH_UPLOAD_PATH', dirname(__FILE__) . '');
 
 /**
  *  Main class itself where all the magic happens
