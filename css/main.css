@@ -65,8 +65,20 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-
+.swipetest {
+    position: relative;
+    background: #eee;
+    width: 400px;
+    height: 400px;
+}
+.swipetest .delete {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0px;
+    right: 0px;
+    background: red;
+}
 
 
 
