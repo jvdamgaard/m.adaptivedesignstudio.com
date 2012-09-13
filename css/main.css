@@ -68,7 +68,7 @@ textarea {
 .swipetest {
     position: relative;
     background: #eee;
-    width: 400px;
+    width: 100%;
     height: 400px;
 }
 .swipetest .delete {
