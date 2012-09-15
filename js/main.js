@@ -12,6 +12,7 @@ Zepto(function($){
 	$('.swipetest .delete').tap(function(){
 	  $(this).parent('.swipetest').remove();
 	})
+	
 });
 
 
